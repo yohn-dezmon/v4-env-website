@@ -1,4 +1,4 @@
-baseurl = "/"
+baseURL = "/"
 title = "Bushwick Eco Initiatives Website"
 author = "John Desmond"
 canonifyurls = true
