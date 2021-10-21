@@ -1,0 +1,8 @@
+.DS_Store
+notes/
+themes/
+static/.DS_Store
+images/.DS_Store
+
+# Local Netlify folder
+.netlify

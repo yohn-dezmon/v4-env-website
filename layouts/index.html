@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ partial "header" . }}
+
+<div class="content">
+    <div class="container">
+        <div class="row justify-content-center">
+          <!-- col-sm-12  col-lg-8 -->
+            <div class="col-sm-5" align="center">
+              <!-- markdown equivalent (without bootstrap): ![](/images/example.jpg) -->
+              <!-- the class and alt are utilizing Bootstrap -->
+              <!-- /images/web-tree-street-bushwick-eco-initiatives.png" -->
+              <img src="/images/wide-street-large-text.png" class="img-fluid" alt="Responsive image">
+              <p>
+                A community organization in Bushwick, Brooklyn that works on projects to
+                reduce greenhouse gases.
+                </p>
+            </div>
+            <form action="POST" data-netlify="true">
+              <h4> Send us a message <br />if you'd like to help out! </h4>
+              <div class="fields">
+                <div class="field half">
+                  <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="field half">
+                  <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="field">
+                  <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <input type="submit" value="Send Message" class="button primary" />
+              </ul>
+            </form>
+        </div>
+    </div>
+</div>
+
+{{ partial "footer" . }}
+{{ end }}
