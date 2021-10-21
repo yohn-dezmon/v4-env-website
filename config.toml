@@ -3,7 +3,7 @@ title = "Bushwick Eco Initiatives Website"
 author = "John Desmond"
 canonifyurls = true
 languagecode = "en"
-theme = "hugo-tanka"
+
 
 enableEmoji = true
 hasCJKLanguage = false
