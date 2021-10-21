@@ -16,13 +16,18 @@
                 </p>
             </div>
             <form action="POST" data-netlify="true">
-              <h4> Send us a message <br />if you'd like to help out! </h4>
+              <h4> Send us a message <br />if you'd like to get involved!</h4>
               <div class="fields">
-                <div class="field half">
+                <div class="field">
                   <input type="text" name="name" id="name" placeholder="Name" />
                 </div>
-                <div class="field half">
+                <div class="field">
                   <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="field">
+                  <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Phone"/>
+                  <br />
+                  <small>Phone format: 347-124-2421</small>
                 </div>
                 <div class="field">
                   <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
